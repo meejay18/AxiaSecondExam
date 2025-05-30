@@ -59,7 +59,7 @@ export const updateUser = async (req, res) => {
   });
  } catch (error) {
   return res.status(404).json({
-   message: 'Error getting users',
+   message: 'Error updating users',
    error: error.message,
   });
  }
