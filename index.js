@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import env from 'dotenv';
-import userRouter from './router/userRouter.js';
+import userRouter from './router/user.router.js';
 env.config();
 const app = express();
 app.use(express.json());
